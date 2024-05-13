@@ -1,0 +1,26 @@
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 60px;
+        margin: 2.2rem;
+    }
+
+}
+
+nav {
+
+    ul {
+        display: flex;
+        margin: 0;
+        align-items: center;
+
+        li {
+            list-style: none;
+            position: relative;
+
+        }
+    }
+}
