@@ -5,7 +5,7 @@ import  './footer.scss'
 function Footer () {
     return (
         
-        <footer class="footer">
+        <footer className="footer">
             <div className='icon'>
             <FontAwesomeIcon icon={faGithub}  />
 
@@ -36,11 +36,11 @@ function Footer () {
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <p class="text-center">© 2024 DatLong Solar. All Rights Reserved | DesginThang</p>
+        <div className="footer-bottom">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12">
+                        <p className="text-center">© 2024 DatLong Solar. All Rights Reserved | DesginThang</p>
                     </div>
                 </div>
             </div>

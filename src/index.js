@@ -5,9 +5,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import GlobalStyles from './components/GlobalStyles'
-// import "font-awesome/css/font-awesome.min.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
+// // import "font-awesome/css/font-awesome.min.css";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -8,4 +8,54 @@
 
 header {
     background-color: #fff;
+    height: 104px;
+
 }
+//Slider 
+.Slider {
+    img {
+        width: 100%;
+    }
+}
+
+
+
+//Contact
+.Contact {
+    position: fixed;
+    bottom: 32px;
+    left: 32px;
+    .phone {
+        font-size: 32px;
+        margin-bottom: 12px;
+        svg {
+            color: #fff;
+            border-radius: 30px;
+            background-color: red;
+            border: 1px solid red;
+            padding: 12px;
+
+            &:hover{
+                background-color: darkred;
+                border-color: darkred;
+            }
+        }
+
+    }
+    .zalo {
+
+        img {
+            background: #2196F3;
+            width: 60px;
+            border-radius: 30px;
+            border: 1px solid #2196F3;
+            padding: 12px;
+
+            &:hover {
+                background: #1E88E5;
+                border-color: #1E88E5;
+            }
+    }
+    }
+}
+
