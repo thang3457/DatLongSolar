@@ -1,12 +1,15 @@
     import { useState, useEffect } from "react";
+    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+    import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';    
+       
     import img0 from "../images/slider/baner1.jpg";
-    import img1 from "../images/slider/img-1.jpg";
-    import img2 from "../images/slider/img-2.jpg";
+    // import img1 from "../images/slider/img-1.jpg";
+    // import img2 from "../images/slider/img-2.jpg";
 
     const imgSlider = [
         { img: img0 },
-        { img: img1 },
-        { img: img2 }
+        { img: img0 },
+        { img: img0 }
     ];
 
     function Slider() {
@@ -32,8 +35,8 @@
                 <div className="Slider-Content">
                     <img src={imgSlider[currentSlide].img} alt={`Slide${currentSlide + 1}`} />
                 </div>
-                <button className="PrevButton" onClick={prevSlide}>Previous</button>
-                <button className="NextButton" onClick={nextSlide}>Next</button>
+                <span className="PrevButton" onClick={prevSlide}><FontAwesomeIcon icon={faChevronLeft} /></span>
+                <span className="NextButton" onClick={nextSlide}><FontAwesomeIcon icon={faChevronRight} /></span>
             </div>
         );
     }

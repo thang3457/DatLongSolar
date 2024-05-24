@@ -13,12 +13,47 @@ header {
 }
 //Slider 
 .Slider {
+  
+        position: relative;
+        
+    
+
+    .PrevButton , .NextButton {
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 100%;
+        
+        user-select: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: greenyellow;
+        }
+    }
+    svg {
+        border-radius: 100%;
+        padding: 14px 18px;
+    }
+    .NextButton {
+        right: 0;
+        // border-radius: 3px 0 0 3px;
+
+    }
     img {
         width: 100%;
     }
 }
 
-
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 //Contact
 .Contact {

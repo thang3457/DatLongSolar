@@ -5,7 +5,7 @@ import './Header.scss'
 function Header () {
     return (
         <header id="header">
-            <div className="container">
+            <div className="container ">
                 <Link to="/" className="logo">
                     <img src={logo} alt="logo" />
                 </Link>
