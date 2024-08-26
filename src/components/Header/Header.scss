@@ -8,29 +8,86 @@ header {
             max-height: 104px;
             padding: 9px 0;
         }
+    }
 
+    .menu-icon {
+        display: none;
+        font-size: 2em;
+        cursor: pointer;
     }
 
     nav {
-
         ul {
             display: flex;
             margin: 0;
+            padding: 0;
             align-items: center;
 
             li {
                 list-style: none;
                 position: relative;
-                margin-left: 40px;
+                margin: 0px 1rem;
                 padding: 8px;
+                border-radius: 50%;
 
-            &:hover {
-                background-color: greenyellow;
-                border: 1px solid;
-                border-radius:15px;
-
-            }    
+                &:hover {
+                    transition: border-radius 0.5s ease; 
+                    background-color: greenyellow;
+                    border-radius: 0; /* Start as a square */
+                }
             }
         }
+    }
+
+    @media (max-width: 768px) {
+        .menu-icon {
+            display: block;
+        }
+
+        nav {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 200px;
+            background-color: white;
+            box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+            z-index: 1000;
+
+            &.open {
+                display: block;
+            }
+            
+            ul {
+                flex-direction: column;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+
+                li {
+                    margin: 0;
+                    padding: 1em;
+                    width: 100%;
+                    text-align: center;
+                    
+                    a {
+                        display: block;
+                        width: 100%;
+                        padding: 1em 0;
+                        border-top: 1px solid #555;
+                        border-bottom: 1px solid #555;
+                        color: black;
+                        text-decoration: none;
+                    }
+
+                    &:hover {
+                        background-color: #f0f0f0;
+                    }
+                }
+            }
+        }
+    }
 }
-}
+    
