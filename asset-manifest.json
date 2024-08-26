@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DatLongSolar/static/css/main.89f3032b.css",
+    "main.js": "/DatLongSolar/static/js/main.587d9798.js",
+    "static/js/453.a841fd51.chunk.js": "/DatLongSolar/static/js/453.a841fd51.chunk.js",
+    "static/media/baner1.jpg": "/DatLongSolar/static/media/baner1.f05cb3f7938912944e2c.jpg",
+    "static/media/img-2.jpg": "/DatLongSolar/static/media/img-2.28b2bb1bef791f001701.jpg",
+    "index.html": "/DatLongSolar/index.html",
+    "main.89f3032b.css.map": "/DatLongSolar/static/css/main.89f3032b.css.map",
+    "main.587d9798.js.map": "/DatLongSolar/static/js/main.587d9798.js.map",
+    "453.a841fd51.chunk.js.map": "/DatLongSolar/static/js/453.a841fd51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89f3032b.css",
+    "static/js/main.587d9798.js"
+  ]
+}
