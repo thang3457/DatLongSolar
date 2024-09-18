@@ -19,15 +19,17 @@ function Header() {
                 <div className="menu-icon" onClick={toggleMenu}>
                     &#9776; {/* Icon for menu (hamburger icon) */}
                 </div>
-                {/* <div className={`navbar ${isOpen ? 'open' : ''}`}> */}
+                {/* <div className={`navbar ${isOpen ?  'open' : ''}`}> */}
                 <nav className={isOpen ? 'open' : ''}>
                         <ul>
                             <li><Link to="/">Home</Link></li>
+                            <li><Link to="/TinTuc">Trang Chủ</Link></li>
+                            <li><Link to="/TinTuc">Giới Thiệu</Link></li>
+                            <li><Link to="/TinTuc">Dịch Vụ</Link></li>
+                            <li><Link to="/TinTuc">Sản Phẩm</Link></li>
+                            <li><Link to="/TinTuc">Dự Án</Link></li>
                             <li><Link to="/TinTuc">Tin Tức</Link></li>
-                            <li><Link to="/TinTuc">Tin Tức</Link></li>
-                            <li><Link to="/TinTuc">Tin Tức</Link></li>
-                            <li><Link to="/TinTuc">Tin Tức</Link></li>
-                            <li><Link to="/TinTuc">Tin Tức</Link></li>
+                            <li><Link to="/TinTuc">Liên Hệ</Link></li>
                         </ul>
                     </nav>
                 </div>
