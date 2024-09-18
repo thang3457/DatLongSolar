@@ -22,8 +22,7 @@ function Header() {
                 {/* <div className={`navbar ${isOpen ?  'open' : ''}`}> */}
                 <nav className={isOpen ? 'open' : ''}>
                         <ul>
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/TinTuc">Trang Chủ</Link></li>
+                            <li><Link to="/">Trang Chủ</Link></li>
                             <li><Link to="/TinTuc">Giới Thiệu</Link></li>
                             <li><Link to="/TinTuc">Dịch Vụ</Link></li>
                             <li><Link to="/TinTuc">Sản Phẩm</Link></li>
