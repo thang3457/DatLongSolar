@@ -23,12 +23,12 @@ function Header() {
                 <nav className={isOpen ? 'open' : ''}>
                         <ul>
                             <li><Link to="/">Trang Chủ</Link></li>
-                            <li><Link to="/TinTuc">Giới Thiệu</Link></li>
-                            <li><Link to="/TinTuc">Dịch Vụ</Link></li>
-                            <li><Link to="/TinTuc">Sản Phẩm</Link></li>
-                            <li><Link to="/TinTuc">Dự Án</Link></li>
-                            <li><Link to="/TinTuc">Tin Tức</Link></li>
-                            <li><Link to="/TinTuc">Liên Hệ</Link></li>
+                            <li><Link to="/gioi-thieu">Giới Thiệu</Link></li>
+                            <li><Link to="/san-pham">Dịch Vụ</Link></li>
+                            <li><Link to="/dich-vu">Sản Phẩm</Link></li>
+                            <li><Link to="/du-an">Dự Án</Link></li>
+                            <li><Link to="/tin-tuc">Tin Tức</Link></li>
+                            <li><Link to="/lien-he">Liên Hệ</Link></li>
                         </ul>
                     </nav>
                 </div>

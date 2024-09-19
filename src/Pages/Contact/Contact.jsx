@@ -2,7 +2,7 @@ import Slider from "../../components/Slider"
 
 function Contact () {
     return ( 
-        <div className="Contact">
+        <div className="ContactPages">
             <Slider />
         <h1>Contact</h1>
 

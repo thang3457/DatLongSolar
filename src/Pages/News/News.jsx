@@ -1,6 +1,6 @@
 import Slider from "../../components/Slider"
 
-function TinTuc () {
+function News () {
     return (
         <div className="new">
         <Slider />
@@ -9,4 +9,4 @@ function TinTuc () {
     )
 }
 
-export default TinTuc
+export default News

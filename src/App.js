@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./Pages/Home/Home";
-import TintucPage from "./Pages/news/TinTuc";
+import NewsPage from "./Pages/News/News";
 import ContactPage from "./Pages/Contact/Contact";
 import IntroducePage from "./Pages/Introduce/Introduce";
 import ProductPage from "./Pages/Product/Product";
@@ -17,7 +17,12 @@ function App() {
       
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/TinTuc" element={<TintucPage />} />
+        <Route path="/gioi-thieu" element={<IntroducePage />} />
+        <Route path="/san-pham" element={<ProductPage />} />
+        <Route path="/dich-vu" element={<ServicePage />} />
+        <Route path="/du-an" element={<ProjectPage />} />
+        <Route path="/tin-tuc" element={<NewsPage />} />
+        <Route path="/lien-he" element={<ContactPage />} />
       </Routes>
       
       <Contact />
