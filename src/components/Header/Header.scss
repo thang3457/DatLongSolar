@@ -33,7 +33,7 @@ header {
                 &:hover {
                     transition: border-radius 0.1s ease; 
                     background-color: greenyellow;
-                    border-radius: 0; /* Start as a square */
+                    border-radius: 8px;
                 }
             }
         }
