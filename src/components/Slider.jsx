@@ -3,13 +3,11 @@
     import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';    
        
     import img0 from "../images/slider/baner1.jpg";
-    // import img1 from "../images/slider/img-1.jpg";
-    // import img2 from "../images/slider/img-2.jpg";
+    import img1 from "../images/slider/baner2.jpg";
 
     const imgSlider = [
         { img: img0 },
-        { img: img0 },
-        { img: img0 }
+        { img: img1 },
     ];
 
     function Slider() {

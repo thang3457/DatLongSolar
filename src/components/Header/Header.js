@@ -24,8 +24,8 @@ function Header() {
                         <ul>
                             <li><Link to="/">Trang Chủ</Link></li>
                             <li><Link to="/gioi-thieu">Giới Thiệu</Link></li>
-                            <li><Link to="/san-pham">Dịch Vụ</Link></li>
-                            <li><Link to="/dich-vu">Sản Phẩm</Link></li>
+                            <li><Link to="/dich-vu">Dịch Vụ</Link></li>
+                            <li><Link to="/san-pham">Sản Phẩm</Link></li>
                             <li><Link to="/du-an">Dự Án</Link></li>
                             <li><Link to="/tin-tuc">Tin Tức</Link></li>
                             <li><Link to="/lien-he">Liên Hệ</Link></li>
