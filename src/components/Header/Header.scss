@@ -3,7 +3,13 @@ header {
         align-items: center;
         display: flex;
         justify-content: space-around;
-
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #fff; /* Màu nền cho header */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng shadow */
         img {
             max-height: 104px;
             padding: 9px 0;
@@ -22,20 +28,40 @@ header {
             margin: 0;
             padding: 0;
             align-items: center;
+            width: 100%;
+            position: relative;
 
-            li {
+            >li {
                 list-style: none;
                 position: relative;
-                margin: 0px 1rem;
-                padding: 8px;
+                // margin: 0px 1rem;
+                // padding: 8px;
+                padding: 0;
+                margin: 0;
                 border-radius: 50%;
-
+                // cursor: pointer;
                 &:hover {
                     transition: border-radius 0.1s ease; 
                     background-color: greenyellow;
                     border-radius: 8px;
                 }
             }
+        }
+        a {
+            font-weight: 500;
+            padding: 0 .75em;
+            border-radius: 99px;
+            letter-spacing: .02em;
+            text-transform: uppercase;
+            font-size: .9em;
+            padding: 0 .75em;
+            border-radius: 99px;
+            line-height: 2.5em;
+            font-size: .9em;
+            letter-spacing: .02em;
+            text-transform: uppercase;
+            font-weight: bolder; 
+            transition: all .2s;
         }
     }
 

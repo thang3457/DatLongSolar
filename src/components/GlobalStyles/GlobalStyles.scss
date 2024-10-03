@@ -4,6 +4,7 @@
     outline: none;
     padding: 0;
     text-decoration: none;
+    
 }
 
 header {
@@ -92,5 +93,18 @@ header {
             }
     }
     }
+   
 }
 
+.row {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+
+        margin-left: auto;
+        margin-right: auto;
+    
+}

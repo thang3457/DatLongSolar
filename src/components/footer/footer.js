@@ -6,13 +6,14 @@ function Footer () {
     return (
         
         <footer className="footer">
+           
+
+        <div className="container">
+            <div className="row">
             <div className='icon'>
             <FontAwesomeIcon icon={faGithub}  />
 
             </div>
-
-        <div className="container">
-            <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-12">
                     <h5>Về Chúng Tôi</h5>
                     <p>Chúng tôi cung cấp giải pháp năng lượng mặt trời chất lượng cao cho gia đình và doanh nghiệp. Với kinh nghiệm và uy tín, chúng tôi cam kết mang lại sự hài lòng tối đa cho khách hàng.</p>
