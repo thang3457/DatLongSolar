@@ -13,7 +13,7 @@ function Header() {
     return (
         <header id="header">
             <div className="container">
-                <Link to="/" className="logo">
+                <Link to="/DatLongSolar" className="logo">
                     <img src={logo} alt="logo" />
                 </Link>
                 <div className="menu-icon" onClick={toggleMenu}>
@@ -22,7 +22,7 @@ function Header() {
                 {/* <div className={`navbar ${isOpen ?  'open' : ''}`}> */}
                 <nav className={isOpen ? 'open' : ''}>
                         <ul>
-                            <li><Link to="/">Trang Chủ</Link></li>
+                            <li><Link to="/DatLongSolar">Trang Chủ</Link></li>
                             <li><Link to="/gioi-thieu">Giới Thiệu</Link></li>
                             <li><Link to="/dich-vu">Dịch Vụ</Link></li>
                             <li><Link to="/san-pham">Sản Phẩm</Link></li>
