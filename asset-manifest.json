@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/DatLongSolar/static/css/main.b59e9f47.css",
-    "main.js": "/DatLongSolar/static/js/main.1a02d6da.js",
+    "main.css": "/DatLongSolar/static/css/main.f2fc389f.css",
+    "main.js": "/DatLongSolar/static/js/main.486fd2f0.js",
     "static/js/453.a841fd51.chunk.js": "/DatLongSolar/static/js/453.a841fd51.chunk.js",
     "static/media/baner1.jpg": "/DatLongSolar/static/media/baner1.75e09ef20a51ee1ae67d.jpg",
     "static/media/img-2.jpg": "/DatLongSolar/static/media/img-2.28b2bb1bef791f001701.jpg",
     "static/media/baner2.jpg": "/DatLongSolar/static/media/baner2.93361aa1fa8c3acd93e6.jpg",
     "index.html": "/DatLongSolar/index.html",
-    "main.b59e9f47.css.map": "/DatLongSolar/static/css/main.b59e9f47.css.map",
-    "main.1a02d6da.js.map": "/DatLongSolar/static/js/main.1a02d6da.js.map",
+    "main.f2fc389f.css.map": "/DatLongSolar/static/css/main.f2fc389f.css.map",
+    "main.486fd2f0.js.map": "/DatLongSolar/static/js/main.486fd2f0.js.map",
     "453.a841fd51.chunk.js.map": "/DatLongSolar/static/js/453.a841fd51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b59e9f47.css",
-    "static/js/main.1a02d6da.js"
+    "static/css/main.f2fc389f.css",
+    "static/js/main.486fd2f0.js"
   ]
 }
