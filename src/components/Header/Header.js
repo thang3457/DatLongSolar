@@ -1,39 +1,96 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../../images/slider/img-2.jpg';
-import './Header.scss';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "../../images/slider/img-2.jpg";
+import "./Header.scss";
+import { NavLink } from "react-router-dom";
 
 function Header() {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
-    return (
-        <header id="header">
-            <div className="container">
-                <Link to="/DatLongSolar" className="logo">
-                    <img src={logo} alt="logo" />
-                </Link>
-                <div className="menu-icon" onClick={toggleMenu}>
-                    &#9776; {/* Icon for menu (hamburger icon) */}
-                </div>
-                {/* <div className={`navbar ${isOpen ?  'open' : ''}`}> */}
-                <nav className={isOpen ? 'open' : ''}>
-                        <ul>
-                            <li><Link to="/DatLongSolar">Trang Chủ</Link></li>
-                            <li><Link to="/gioi-thieu">Giới Thiệu</Link></li>
-                            <li><Link to="/dich-vu">Dịch Vụ</Link></li>
-                            <li><Link to="/san-pham">Sản Phẩm</Link></li>
-                            <li><Link to="/du-an">Dự Án</Link></li>
-                            <li><Link to="/tin-tuc">Tin Tức</Link></li>
-                            <li><Link to="/lien-he">Liên Hệ</Link></li>
-                        </ul>
-                    </nav>
-                </div>
-        </header>
-    );
+  return (
+    <header id="header">
+      <div className="container">
+        <Link to="/DatLongSolar" className="logo">
+          <img src={logo} alt="logo" />
+        </Link>
+        <div className="menu-icon" onClick={toggleMenu}>
+          &#9776; {/* Icon for menu (hamburger icon) */}
+        </div>
+        {/* <div className={`navbar ${isOpen ?  'open' : ''}`}> */}
+        <nav className={isOpen ? "open" : ""}>
+          <ul className="nav nav-pills">
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/DatLongSolar"
+                activeClassName="active"
+              >
+                Trang Chủ
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/gioi-thieu"
+                activeClassName="active"
+              >
+                Giới Thiệu
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/san-pham"
+                activeClassName="active"
+              >
+                Sản Phẩm
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/dich-vu"
+                activeClassName="active"
+              >
+                Dịch Vụ
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/du-an"
+                activeClassName="active"
+              >
+                Dự Án
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/tin-tuc"
+                activeClassName="active"
+              >
+                Tin Tức
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link"
+                to="/lien-he"
+                activeClassName="active"
+              >
+                Liên Hệ
+              </NavLink>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  );
 }
 
 export default Header;

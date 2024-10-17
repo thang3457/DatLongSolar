@@ -6,7 +6,7 @@ header {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        max-width: 100%;
         z-index: 1000;
         background-color: #fff; /* Màu nền cho header */
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng shadow */
@@ -21,8 +21,13 @@ header {
         font-size: 2em;
         cursor: pointer;
     }
-
+    .nav-pills .nav-link.active {
+        background-color: greenyellow !important;  /* Ghi đè bằng !important */
+        color: white !important;
+        font-weight: bold !important;
+    }
     nav {
+        
         ul {
             display: flex;
             margin: 0;
@@ -34,12 +39,9 @@ header {
             >li {
                 list-style: none;
                 position: relative;
-                // margin: 0px 1rem;
-                // padding: 8px;
                 padding: 0;
-                margin: 0;
+                margin: 0px 4px;
                 border-radius: 50%;
-                // cursor: pointer;
                 &:hover {
                     transition: border-radius 0.1s ease; 
                     background-color: greenyellow;
@@ -47,24 +49,29 @@ header {
                 }
             }
         }
-        a {
-            font-weight: 500;
+        .nav-link {
+            font-weight: 500 !important;
             padding: 0 .75em;
             border-radius: 99px;
+            color: #334862;
             letter-spacing: .02em;
             text-transform: uppercase;
             font-size: .9em;
             padding: 0 .75em;
             border-radius: 99px;
             line-height: 2.5em;
-            font-size: .9em;
+            font-size: .9em !important;
             letter-spacing: .02em;
             text-transform: uppercase;
             font-weight: bolder; 
             transition: all .2s;
+            &:hover {
+                color: #334862;
+            }
         }
+       
     }
-
+   
     @media (max-width: 768px) {
         .menu-icon {
             display: block;
